@@ -40,7 +40,6 @@ override_dh_auto_build:
 		--without-http_scgi_module \
 		--without-http_split_clients_module \
 		--without-http_uwsgi_module \
-		--add-module=$(CURDIR)/modules/ngx_http_upstream_keepalive-d9ac9ad67f45 \
 		--add-module=$(CURDIR)/modules/ngx_http_redis-0.3.5 \
 		--add-module=$(CURDIR)/modules/ngx_cache_purge-1.5
 	dh_auto_build
