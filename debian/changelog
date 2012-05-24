@@ -1,0 +1,90 @@
+nginx (1.2.0-1~squeeze) unstable; urgency=low
+
+  * 1.2.0
+
+ -- Sergey Budnevitch <sb@nginx.com>  Mon, 23 Apr 2012 17:04:12 +0400
+
+nginx (1.0.15-1~squeeze) unstable; urgency=low
+
+  * 1.0.15
+
+ -- Sergey Budnevitch <sb@nginx.com>  Thu, 12 Apr 2012 16:40:00 +0400
+
+nginx (1.0.14-2) unstable; urgency=low
+  * postinst script added to fix error on installation when another
+    process listens on 80 port
+
+ -- Sergey Budnevitch <sb@nginx.com>  Thu, 22 Mar 2012 12:40:34 +0400
+
+nginx (1.0.14-1) unstable; urgency=low
+
+  * 1.0.14
+
+ -- Sergey Budnevitch <sb@nginx.com>  Thu, 15 Mar 2012 16:47:09 +0400
+
+nginx (1.0.13-1) unstable; urgency=low
+
+  * 1.0.13
+
+ -- Sergey Budnevitch <sb@nginx.com>  Mon, 05 Mar 2012 20:19:10 +0400
+
+nginx (1.0.12-1) unstable; urgency=low
+
+  * 1.0.12
+  * banner added to install script
+
+ -- Sergey Budnevitch <sb@nginx.com>  Mon, 06 Feb 2012 18:24:15 +0400
+
+nginx (1.0.11-1) unstable; urgency=low
+
+  * 1.0.11
+  * init script enhancements (thanks to Gena Makhomed)
+
+ -- Sergey Budnevitch <sb@nginx.com>  Thu, 15 Dec 2011 19:05:46 +0400
+
+nginx (1.0.10-1) unstable; urgency=low
+
+  * 1.0.10
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 15 Nov 2011 12:55:36 +0400
+
+nginx (1.0.9-1) unstable; urgency=low
+
+  * 1.0.9
+  * nginx-debug package added
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 01 Nov 2011 18:54:02 +0400
+
+nginx (1.0.8-2) unstable; urgency=low
+
+  * typo in configure fixed
+  * upgrade and configtest arguments to init-script added (based on fedora one)
+  * logrotate creates new logfiles with nginx owner
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 11 Oct 2011 19:49:11 +0400
+
+nginx (1.0.8-1) unstable; urgency=low
+
+  * 1.0.8
+  * built with mp4 module
+
+ -- Sergey Budnevitch <sb@nginx.com>  Sat, 01 Oct 2011 17:22:17 +0400
+
+nginx (1.0.7-1) unstable; urgency=low
+
+  * 1.0.7
+
+ -- Sergey Budnevitch <sb@nginx.com>  Fri, 30 Sep 2011 18:34:17 +0400
+
+nginx (1.0.6-1) unstable; urgency=low
+
+  * 1.0.6
+  * replace "conf.d/*" config include with "conf.d/*.conf" in default nginx.conf  
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 30 Aug 2011 19:27:16 +0400
+
+nginx (1.0.5-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Sergey Budnevitch <sb@nginx.com>  Thu, 11 Aug 2011 12:57:47 +0400
